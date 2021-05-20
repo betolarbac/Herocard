@@ -1,0 +1,72 @@
+/*variaveis de cor */
+:root {
+  --gray-50: #F7F8FA;
+  --gray-100: #E6E8EB;
+  --white: #FFF;
+  --primary-dark-color: #000;
+  --primary-color: #141414;
+  --accent-color: #E50914;
+  --text-color: white;
+}
+
+/* cores body, fonte, cor de texto e tamanho de fonte*/
+body {
+  background: var(--gray-50);
+  color: var(--text-color);
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+main {
+  width: 90%;
+  margin: 6rem auto;
+}
+
+/*texto nome personagem*/
+h1 {
+  font-weight: bolder;
+  color: var(--primary-dark-color);
+  font-size: 2rem;
+}
+
+/* demais titulos */
+h2 {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  margin: 1ch 0;
+  color: var(--primary-dark-color);
+}
+
+/*texto marvel inferior*/
+footer {
+  padding: 1rem 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--primary-color);
+  text-align: center;
+  opacity: 0.8;
+}
+
+.container {
+  display: none;
+}
+
+.error-message {
+  text-align: center;
+  display: none;
+}
+
+/*responsividade */
+@media (min-width: 768px){
+  body {
+    font-size: 16px;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  main {
+    width: 80%;
+    margin: 6rem auto;
+  }
+}
