@@ -1,2 +1,2 @@
 # Herocast
-projetopara uma vaga de emprego
+projeto para uma vaga de emprego
